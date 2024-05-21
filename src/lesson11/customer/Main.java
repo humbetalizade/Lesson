@@ -12,7 +12,6 @@ public class Main {
         String b = scanner.nextLine();
 
         User user1 = new User(a, b);
-        System.out.println(user1.name + " " + user1.surName);
-
+        user1.Text();
     }
 }

@@ -17,9 +17,9 @@ public class Animal {
         System.out.println(name + " make a voice");
     }
 
-//    public int getTotalVisitors() {
-//        return totalVisitors;
-//    }
+    public int getTotalVisitors() {
+        return totalVisitors;
+    }
 
     @Override
     public String toString() {

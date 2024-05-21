@@ -8,4 +8,7 @@ public class User {
         this.name = name;
         this.surName = surName;
     }
+    public void Text(){
+        System.out.println(this.name.concat(" "+this.surName));
+    }
 }
