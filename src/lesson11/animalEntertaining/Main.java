@@ -10,7 +10,7 @@ public class Main {
         feeder.prepareMeal("Meat",animal);
         trainer.teachTrick("flip",animal);
         animal.makeSound();
-        animal.getTotalVisitors();
+        //animal.getTotalVisitors();
         System.out.println("Counts of visitors: "+animal.getTotalVisitors());
 
     }
