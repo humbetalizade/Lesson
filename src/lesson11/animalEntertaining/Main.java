@@ -7,7 +7,7 @@ public class Main {
         Feeder feeder=new Feeder();
         Trainer trainer=new Trainer();
 
-        feeder.prepareMeal("Meat",animal);
+        feeder.prepareMeal("Meat    ",animal);
         trainer.teachTrick("flip",animal);
         animal.makeSound();
         //animal.getTotalVisitors();
