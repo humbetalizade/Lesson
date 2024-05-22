@@ -11,7 +11,7 @@ public class Main {
         trainer.teachTrick("flip",animal);
         animal.makeSound();
         //animal.getTotalVisitors();
-        System.out.println("Counts of visitors: "+animal.getTotalVisitors());
+        System.out.println("Counts of visitors:        "+animal.getTotalVisitors());
 
     }
 }
